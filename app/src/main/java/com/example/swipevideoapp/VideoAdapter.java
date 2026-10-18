@@ -21,6 +21,14 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHol
         this.videoItems = videoItems;
     }
 
+
+    /**
+     * Creates a new ViewHolder for a video item.
+     *
+     * @param parent the ViewGroup into which the new view will be added
+     * @param viewType the type of view to create
+     * @return a new VideoViewHolder containing the video item layout
+     */
     @NonNull
     @Override
     public VideoViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -50,8 +58,9 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHol
 
 
         /**
+         * Initializes the views for a video item.
          *
-         * @param itemView
+         * @param itemView the view representing an individual video item
          */
         public VideoViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -63,8 +72,11 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHol
         }
 
         /**
+         * Sets the video's title, description, and URL, then starts playback
+         * when the video is prepared. Adjusts the video scaling to fit the
+         * available view and restarts playback when the video completes.
          *
-         * @param videoItem
+         * @param videoItem the video data to display and play
          */
         void setVideoData (VideoItem videoItem) {
             textVideoTitle1.setText(videoItem.videoTitle);
