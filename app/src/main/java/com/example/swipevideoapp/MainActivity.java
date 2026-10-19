@@ -31,31 +31,31 @@ public class MainActivity extends AppCompatActivity {
         List<VideoItem> videoItemsList = new ArrayList<>();
 
         VideoItem video1 = new VideoItem();
-        video1.videoURL = "https://github.com/Jerry125465/VideoDemo/raw/refs/heads/main/MJ.mp4";
+        video1.videoURL = "https://raw.githubusercontent.com/Jerry125465/VideoDemo/main/MJ.mp4";
         video1.videoTitle = "Funny Video    ID:1001";
         video1.videoDescription = "Found a funny video to post.";
         videoItemsList.add(video1);
 
         VideoItem video2 = new VideoItem();
-        video2.videoURL = "https://github.com/Jerry125465/VideoDemo/raw/refs/heads/main/CatFloat.mp4";
+        video2.videoURL = "https://raw.githubusercontent.com/Jerry125465/VideoDemo/main/CatFloat.mp4";
         video2.videoTitle = "Cat is floating    ID:1002";
         video2.videoDescription = "How is the cat floating?";
         videoItemsList.add(video2);
 
         VideoItem video3 = new VideoItem();
-        video3.videoURL = "xhttps://github.com/Jerry125465/VideoDemo/raw/refs/heads/main/CatFall.mp4";
+        video3.videoURL = "https://raw.githubusercontent.com/Jerry125465/VideoDemo/main/CatFall.mp4";
         video3.videoTitle = "Bro didn't overreact   ID:1003";
         video3.videoDescription = "EPIC FAIL!!!";
         videoItemsList.add(video3);
 
         VideoItem video4 = new VideoItem();
-        video4.videoURL = "https://github.com/Jerry125465/VideoDemo/raw/refs/heads/main/Barber.mp4";
+        video4.videoURL = "https://raw.githubusercontent.com/Jerry125465/VideoDemo/main/Barber.mp4";
         video4.videoTitle = "I trust my barber  ID:1004";
         video4.videoDescription = "You need a new barber";
         videoItemsList.add(video4);
 
         VideoItem video5 = new VideoItem();
-        video5.videoURL = "https://github.com/Jerry125465/VideoDemo/raw/refs/heads/main/Music.mp4";
+        video5.videoURL = "https://raw.githubusercontent.com/Jerry125465/VideoDemo/main/Music.mp4";
         video5.videoTitle = "PS1 Music  ID:10005";
         video5.videoDescription = "I didn't know PS1 discs were also CDs";
         videoItemsList.add(video5);

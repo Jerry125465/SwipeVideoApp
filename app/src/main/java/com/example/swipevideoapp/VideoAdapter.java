@@ -108,6 +108,14 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHol
                     mp.start();
                 }
             });
+
+            videoView.setOnErrorListener(new MediaPlayer.OnErrorListener() {
+                @Override
+                public boolean onError(MediaPlayer mp, int what, int extra) {
+                    progressBar.setVisibility(View.GONE);
+                    return true;
+                }
+            });
     }
 
     }
